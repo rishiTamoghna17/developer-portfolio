@@ -6,6 +6,7 @@ import Image from "next/image";
 import Marquee from "react-fast-marquee";
 
 function Skills() {
+  
   return (
     <div id="skills" className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]">
       <div className="w-[100px] h-[100px] bg-violet-100 rounded-full absolute top-6 left-[42%] translate-x-1/2 filter blur-3xl  opacity-20"></div>
