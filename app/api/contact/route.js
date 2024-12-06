@@ -86,9 +86,10 @@ export async function POST(request) {
 
     // Send Telegram message
     const telegramSuccess = await sendTelegramMessage(token, chat_id, message);
-
+    console.log("telegramSuccess-->>>",telegramSuccess);
     // Send email
     const emailSuccess = await sendEmail(payload, message);
+    console.log("emailSuccess-->>>",emailSuccess);
 
     if (telegramSuccess && emailSuccess) {
       return NextResponse.json({
