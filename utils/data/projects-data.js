@@ -16,9 +16,9 @@ export const projectsData = [
     },
     {
         id: 2,
-        name: 'Travel Agency App',
-        description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
-        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
+        name: 'content_collector_telegram_bot',
+        description: 'This Telegram bot allows you to download and stream media from various social media platforms and TeraBox. With this bot, you can easily get direct download or streaming links for Instagram reels, videos, and pictures, Facebook reels, videos, and pictures, YouTube shorts and videos, and TeraBox files.',
+        tools: ['Express', 'Prisma','supabase','Telegraf'],
         role: 'Full Stack Developer',
         code: '',
         demo: '',
